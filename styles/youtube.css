@@ -1,0 +1,58 @@
+p{
+    font-family: Roboto, Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.search-bar{
+    display: block;
+    margin-bottom: 22px;
+}	
+
+.video-preview{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+
+}
+.thumbnail{
+    width: 300px;
+    display: block;
+}
+
+.thumbnail-row{
+    margin-bottom: 12px;
+}
+
+.channel-picture{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+.prfile-picture{
+    width: 36px;
+    border-radius: 30px
+}
+
+.video-info{
+    display: inline-block;
+    width: 200px;
+}
+
+.video-title{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.video-auth,
+.video-stats{
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+}
+
+.video-auth{
+    margin-bottom: 4px;
+}
