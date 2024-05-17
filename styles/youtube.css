@@ -9,20 +9,24 @@ p{
     margin-bottom: 22px;
 }	
 
-.video-preview{
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 15px;
-
+.videos-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 16px;
+    row-gap: 20px;
 }
+
 .thumbnail{
-    width: 300px;
-    display: block;
+    width: 100%;
 }
 
 .thumbnail-row{
     margin-bottom: 12px;
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: auto 1fr;
 }
 
 .channel-picture{
@@ -37,7 +41,6 @@ p{
 
 .video-info{
     display: inline-block;
-    width: 200px;
 }
 
 .video-title{
